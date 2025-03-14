@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, 
+initial-scale=1.0" />
+        <title>Git 협업 실습</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <header>
+            <h1>Git 협업 실습</h1>
+        </header>
+
+        <main>
+            <section class="content">
+                <h2>Git 기본 명령어</h2>
+                <p>Git에서 사용되는 기본 명령어를 알아볼까요?</p>
+                <ul>
+                    <li><code>git init</code> - 새로운 Git 저장소 
+생성</li>
+                    <li><code>git add</code> - 변경된 파일을 스테이징</li>
+                    <li>
+                        <code>git commit -m "메시지"</code> - 변경 사항을 
+기록
+                    </li>
+                    <li>
+                        <code>git push</code> - 원격 저장소에 변경 사항 
+업로드
+                    </li>
+                </ul>
+            </section>
+
+            <section class="content">
+                <h2>Git 협업 흐름</h2>
+                <p>팀 프로젝트에서 Git을 활용하여 협업을 해 봅시다!</p>
+                <ol>
+                    <li>
+                        GitHub에서 레포지토리를 생성하고 `git clone`으로
+                        가져오기
+                    </li>
+                    <li>새로운 기능을 개발할 때 브랜치를 생성하고 
+작업하기</li>
+                    <li>수정한 내용을 `git add`, `git commit`으로 
+저장</li>
+                    <li>`git push` 후 Pull Request 생성하여 코드 리뷰 
+요청</li>
+                    <li>리뷰가 끝나면 `git merge` 후 원격 저장소에 
+반영</li>
+                </ol>
+            </section>
+        </main>
+
+        <footer>
+            <p>이 페이지는 Next의 Git 협업 실습을 위해 만들어졌습니다!</p>
+            <p>
+                이외에 추가하고 싶은 다른 명령어나 세션 복습 내용이 있다면
+                자유롭게 수정해주세요.🙂
+            </p>
+        </footer>
+    </body>
+</html>
